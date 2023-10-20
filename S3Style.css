@@ -1,0 +1,105 @@
+/*
+Universal selector
+*/
+* {
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ text-decoration: solid;
+ color: white;
+}
+/*
+Tag selector
+*/
+h1, h2, h3
+{
+  color: rgb(255, 255, 255);
+text-align: center;
+}
+h1{
+  position: center;
+}
+h2
+{
+  position: relative;
+  bottom: 500px;
+  left: 750px;
+}
+h3 {
+  position: relative;
+  bottom: 420px;
+  left: 750px;
+}
+/*
+id selector
+*/
+#G304{
+  position: relative;
+  bottom: 16px;
+  left: 700px;
+}
+#G435 {
+position: relative;
+bottom: 16px;
+left: 700px;
+}
+
+#peri {
+position: relative;
+bottom: 16px;
+  left: 700px;
+}
+
+#Restore {
+  background-color: rgb(41, 118, 211);
+  border-color: rgb(24, 160, 223);
+  border-style: none;
+  border-width: 1px;
+  color: rgb(0, 0, 0); 
+  height: 36px;
+  width: 174px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+#Restore:hover {
+  background-color: rgb(41, 118, 211);
+   color: white;
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+#body {
+background-color:  #3498db;
+
+}
+#Registered {
+  position: relative;
+  bottom: 480px;
+  left: 1530px;
+}
+#profile-table {
+  position: relative;
+  bottom: 450px;
+  left: 1530px;
+}
+#switch {
+  position: relative;
+  bottom: 430px;
+  left: 1450px;
+}
+#profile {
+  position: relative;
+  bottom: 490px;
+  left: 1530px;
+}
+#createprof {
+  position: relative;
+  bottom: 390px;
+  left: 1410px;
+}
+.vertical-line {
+  width: 4px; 
+  height: 200%; 
+  background-color: rgb(12, 12, 15);
+  position: absolute;
+  top: 0;
+  left: 75%; 
+  transform: translateX(-50%); 
+}
